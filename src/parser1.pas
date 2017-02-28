@@ -1,5 +1,7 @@
 unit parser1;
 
+{$MODE Delphi}
+
 
 
 interface
@@ -35,9 +37,9 @@ type
     procedure Memo1Click(Sender: TObject);
     procedure ListBox2Click(Sender: TObject);
   private
-    { Déclarations privées }
+    { DÃ©clarations privÃ©es }
   public
-    { Déclarations publiques }
+    { DÃ©clarations publiques }
   end;
 
 
@@ -48,7 +50,7 @@ var
   parser:Tparser;
 implementation
 
-{$R *.dfm}
+{$R *.lfm}
 procedure Tform1.up;
 var k:integer;
 begin
@@ -101,11 +103,11 @@ begin
           ck.caption:=chr(65+i);
           ck.Name:='chk'+chr(65+i);
           ck.left:=5;
-          ck.top:=5+30*(j);
+          ck.top:=5+30*panel1.ControlCount;
           ck.Width:=30;
           ck.onclick:=ButtonClick;
           ck.ShowHint:=true;
-          ck.Hint:='Capteurs binaires de A � R';
+          ck.Hint:=inttostr(self.Panel1.controlcount);
         end;
      end;
   end;
@@ -124,7 +126,7 @@ begin
         sb.top:=5+30*panel2.ControlCount;
         sb.Width:=30;
         sb.ShowHint:=true;
-        sb.Hint:='Actionneurs binaires de S � Z';
+        sb.Hint:='Actionneurs binaires de S à Z';
       end;
     end;
   end;

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="3">
+      <Unit0>
+        <Filename Value="Parser.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <CursorPos X="25" Y="3"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="parser1.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="88"/>
+        <CursorPos X="30" Y="106"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="D:\components\mrt\parser_maths.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+      </Unit2>
+    </Units>
+    <JumpHistory Count="1">
+      <Position1>
+        <Filename Value="parser1.pas"/>
+        <Caret Line="110" Column="44" TopLine="99"/>
+      </Position1>
+    </JumpHistory>
+  </ProjectSession>
+  <SkipCheckLCLInterfaces Value="True"/>
+</CONFIG>
